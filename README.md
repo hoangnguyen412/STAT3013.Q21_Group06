@@ -11,6 +11,7 @@ This project investigates the statistical relationship between ambient air pollu
 The project is built using Python 3.12+. To run the complete pipeline across all 6 models, you must install the following dependencies. 
 
 Create a `requirements.txt` file or install them directly:
+
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 
 pip install pmdarima         # For ARIMAX model
