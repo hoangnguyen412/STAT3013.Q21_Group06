@@ -12,10 +12,15 @@ The project is built using Python 3.12+. To run the complete pipeline across all
 
 Create a `requirements.txt` file or install them directly:
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
+
 pip install pmdarima         # For ARIMAX model
+
 pip install quantile-forest  # For QRF (Quantile Regression Forest) model
+
 pip install semopy           # For SEM (Structural Equation Modeling)
+
 pip install tensorflow       # For TCN (Temporal Convolutional Networkl
+
 
 Run Instructions
 Ensure that the dataset files (merged_project_data.csv, delhi_project_final_data.csv, london_project_final_data.csv, mexico_project_final_data.csv) are placed in the root directory of the project.
